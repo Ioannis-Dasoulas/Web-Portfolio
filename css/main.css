@@ -129,6 +129,11 @@ section {
   background: #F2F2F2;
 }
 
+.category-div {
+  background: #F2F2F2;
+  text-align: center;
+}
+
 .portfolio-container a img {
   /*#border-radius: 1em; */
   padding:1em;
@@ -152,6 +157,32 @@ section {
 .featured img {
   border-radius: 300px;
   width: 300px;
+}
+
+.category-container {
+  display: flex;
+  justify-content: center;
+}
+
+.category {
+  margin: 0 15px; 
+  cursor: pointer;
+  padding:20px;
+  border: 1px solid black;
+  border-radius: 40px;
+}
+
+.category:hover, 
+.category.is-active {
+  /* text-decoration: underline; */
+  color: white;
+  border: 1px solid #57ba98;
+  border-radius: 40px;
+  background-color: #65ccb8;
+}
+
+.hideDiv {
+  display:none !important;
 }
 
 @media only screen and (min-width: 800px) {

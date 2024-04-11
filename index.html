@@ -15,7 +15,7 @@
 
             <nav> 
                 <ul>
-                    <li><a href="#prtfl"> Projects</a></li>
+                    <li><a href="#prtfl"> Works</a></li>
                     <li><a href="#cntct"> Contact</a></li>
                 </ul>
             </nav>
@@ -73,12 +73,17 @@
         <img class="right transition2" src="images/das5.jpg" alt="Featured Project">
 
     </section>
+
+    <section class="category-div" id="prtfl">
+        <div class="category-container">
+            <h1 role="button" onclick="publicationsClick()" class="category is-active" id="pubButton">Publications</h1>
+            <h1 role="button" onclick="projectsClick()" class="category" id="proButton">Projects</h1>
+        </div>
+    </section>
     
-    <section class="portfolio" id="prtfl">
+    <section class="portfolio" >
 
-        <p class="subtitle">Projects</p>
-
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition3 pubDiv">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">Publication</p>
@@ -96,7 +101,7 @@
             <a href="https://github.com/dtai-kg/MLSea-Discover" target="_blank"><img src="images/kgc.jpg" alt="MLSea-KG"></a>
         </div>
 
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition3 pubDiv">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">Publication</p>
@@ -115,7 +120,7 @@
             <a href="https://github.com/dtai-kg/MLSO" target="_blank"><img src="images/UML2.jpg" alt="MLSO"></a>
         </div>
 
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition3 pubDiv">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">Publication</p>
@@ -133,7 +138,7 @@
             <a href="https://ceur-ws.org/Vol-3557/paper2.pdf" target="_blank"><img src="images/semtab.png" alt="TorchicTab"></a>
         </div>
 
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition3 pubDiv">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">Publication</p>
@@ -150,7 +155,7 @@
             <a href="https://github.com/morph-kgc/morph-kgc" target="_blank"><img src="images/morph.png" alt="Morph-KGC"></a>
         </div>
 
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition3 pubDiv">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">Publication</p>
@@ -167,7 +172,7 @@
             <a href="https://github.com/oeg-upm/yatter" target="_blank"><img src="images/rmlio.png" alt="Yatter"></a>
         </div>
 
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition3 proDiv">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">Machine learning project (Diploma Thesis)</p>
@@ -189,7 +194,7 @@
             <a href="https://github.com/TheRazorace/Python-Chess-Engine" target="_blank"><img src="images/project1.jpg" alt="Project 1"></a>
         </div>
 
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition3 proDiv">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">Web development project (Diploma Thesis Side Project)</p>
@@ -204,7 +209,7 @@
             <a href="https://github.com/TheRazorace/Python-Chess-Engine" target="_blank"><img src="images/project2.jpg" alt="Project 2"></a>
         </div>
 
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition3 proDiv">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">Database Application</p>
@@ -221,7 +226,7 @@
             <a href="https://github.com/TheRazorace/DB_Project" target="_blank"><img src="images/power-distribution.jpg" alt="Project 3"></a>
         </div>
 
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition3 proDiv">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">Web development project</p>
@@ -238,7 +243,7 @@
             <a href="https://github.com/TheRazorace/Web-Development/blob/main/Smarthome%20Project.md" target="_blank"><img src="images/project4.JPG" alt="Project 4"></a>
         </div>
 
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition3 proDiv">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">Machine learning project</p>
@@ -254,7 +259,7 @@
             <a href="https://github.com/TheRazorace/Python-Projects/tree/master/Real%20Estate%20Price%20Prediction" target="_blank"><img src="images/project16.JPG" alt="Project 16"></a>
         </div>
 
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition3 proDiv">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">Human-Computer interaction project</p>
@@ -270,7 +275,7 @@
             <a href="https://github.com/TheRazorace/MyDidaskalia" target="_blank"><img src="images/project5.JPG" alt="Project 5"></a>
         </div>
 
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition3 proDiv">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">Data retrieval project</p>
@@ -286,7 +291,7 @@
             <a href="https://github.com/TheRazorace/Python-Projects/tree/master/Data%20Retrieval%20Project%20Code" target="_blank"><img src="images/project6.JPG" alt="Project 6"></a>
         </div>
 
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition3 proDiv">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">Parallel programming project</p>
@@ -301,7 +306,7 @@
             <a href="https://github.com/TheRazorace/C-Projects/tree/master/Parallel%20programming" target="_blank"><img src="images/project7.jpg" alt="Project 7"></a>
         </div>
 
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition3 proDiv">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">Java multi-thread project</p>
@@ -314,7 +319,7 @@
             <a href="https://github.com/TheRazorace/Java-Projects/tree/master/Sleeping%20Barber%20Application" target="_blank"><img src="images/project8.jpg" alt="Project 8"></a>
         </div>
 
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition3 proDiv">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">Java server-client project</p>
@@ -341,7 +346,7 @@
             <a href="https://github.com/TheRazorace/Java-Projects/tree/master/Calculator%20GUI" target="_blank"><img src="images/project10.jpg" alt="Project 10"></a>
         </div> -->
 
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition3 proDiv">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">VLSI project</p>
@@ -354,7 +359,7 @@
             <a href="https://github.com/TheRazorace/VLSI-II-" target="_blank"><img src="images/project11.jpg" alt="Project 11"></a>
         </div>
 
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition3 proDiv">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">Digital Signal Processing project</p>
@@ -369,7 +374,7 @@
             <a href="https://github.com/TheRazorace/C-Projects/tree/master/Digital%20Signal%20Processing%20Exercises" target="_blank"><img src="images/project12.jpg" alt="Project 12"></a>
         </div>
 
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition3 proDiv">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">Pattern Recognition project</p>
@@ -383,7 +388,7 @@
             <a href="https://github.com/TheRazorace/Matlab-Projects/tree/main/Pattern%20Recognition" target="_blank"><img src="images/project13.jpg" alt="Project 13"></a>
         </div>
         
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition3 proDiv">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">Data Mining project</p>
@@ -398,7 +403,7 @@
             <a href="https://github.com/TheRazorace/Python-Projects/tree/master/DM%20Project" target="_blank"><img src="images/project14.jpg" alt="Project 14"></a>
         </div>
 
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition3 proDiv">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">VLSI project</p>
@@ -430,8 +435,9 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+    <script src="js/index.js"></script>
 
-    <script>
+    <!-- <script>
         gsap.registerPlugin(ScrollTrigger);
         var tl = gsap.timeline();
 
@@ -477,7 +483,7 @@
         window.onbeforeunload = function () {
              window.scrollTo(0, 0);
         }
-    </script>
+    </script> -->
 
 </body>
 </html>
