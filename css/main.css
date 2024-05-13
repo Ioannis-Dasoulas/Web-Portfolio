@@ -16,7 +16,7 @@ a {
 }
 
 img {
-  width: 100%;
+  width: 70%;
 }
 
 .nav-container {
@@ -285,7 +285,7 @@ section {
   }
   .portfolio img {
     float: right;
-    max-width: 500px;
+    max-width: 300px;
   }
 }
 
@@ -301,6 +301,10 @@ section {
   }
   .hero .content {
     padding: 6em 8em 6em 10em;
+  }
+
+  img {
+    width: 100%;
   }
 }
 
