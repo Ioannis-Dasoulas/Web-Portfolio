@@ -34,10 +34,10 @@
         <div class="content">
             <h1>Ioannis Dasoulas</h1>
             <h2>PhD Researcher, Electrical and Computer Engineer</h2>
-            <div class="meet">
+            <!-- <div class="meet">
                 <span>&rarr;</span>
                 <p><a href="#bio" style="color: #182628;">Meet me</a></p>
-            </div>
+            </div> -->
         </div>
 
         <svg class="hero-design" width="352" height="352" viewBox="0 0 352 352" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -67,7 +67,7 @@
                     engineering for machine learning pipelines leveraging linked data and
                     software development for knowledge graph construction and data linking.
                     In my free time, I work on projects related to deep learning and cyber-physical
-                    systems, as well as for the Beyond Orbit robotics team as a software engineer.  </p>     
+                    systems, as well as for the Beyond Orbit robotics team as a machine learning engineer.  </p>     
             </div>
         </div>
 
@@ -83,6 +83,41 @@
     </section>
     
     <section class="portfolio" >
+
+        <div class="portfolio-container transition3 proDiv">
+            <div class="portfolio-left">
+                <div class="inner">
+                    <p class="subtitle">Embedded AI Project</p>
+
+                    <a href="https://github.com/TheRazorace/Jetson_Nano_Guide" target="_blank"><p class="featured-title">NVIDIA Jetson 
+                        Guide for Real-Time Deep Learning Inference from Scratch
+                    </p></a>
+                    <p class="featured-desc"> <u>Ioannis Dasoulas</u> <br>
+                        A detailed guide to set up NVIDIA Jetson devices in order to run custom deep learning models
+                        from scratch efficiently. The guide contains instructions on booting embedding devices, 
+                        configuring internet connection and memory, as well as setting up Python and running custom 
+                        deep learning code. </p>
+                </div>
+            </div>
+            <a href="https://github.com/TheRazorace/Jetson_Nano_Guide" target="_blank"><img src="images/jetson_nano.png" alt="MLSeascape"></a>
+        </div>
+
+        <div class="portfolio-container transition3 pubDiv">
+            <div class="portfolio-left">
+                <div class="inner">
+                    <p class="subtitle">Publication</p>
+
+                    <a href="https://2024.eswc-conferences.org/wp-content/uploads/2024/04/ESWC_2024_paper_350.pdf" target="_blank"><p class="featured-title">MLSeascape:
+                         Machine Learning Metadata Search Empowered by Knowledge Graphs</p></a>
+                    <p class="featured-desc"> <u>Ioannis Dasoulas</u>, Duo Yang, Anastasia Dimou <br>
+                        A web application built on-top of MLSea-KG, which allows seamless search over machine learning 
+                        knowledge from all over the web. The user is able to search for machine learning datasets, models,
+                        software, tasks, implementations, algorithms and publications as well as view their metadata. The application
+                        is open-source.</p>
+                </div>
+            </div>
+            <a href="https://2024.eswc-conferences.org/wp-content/uploads/2024/04/ESWC_2024_paper_350.pdf" target="_blank"><img src="images/mlseascape.png" alt="MLSeascape"></a>
+        </div>
 
         <div class="portfolio-container transition3 pubDiv">
             <div class="portfolio-left">
@@ -183,10 +218,11 @@
                     </p>
                     <p class="featured-desc"> <u>Ioannis Dasoulas</u> <br>
                         Computer vision project that aims to identify and segment rocks in a Mars-like environment. 
-                        YOLOv8 is used for rock detection and estimation, as well as the MarsData dataset. Project is 
+                        YOLOv8 is used for rock detection and segmentation, as well as the MarsData dataset. Project is 
                         developed with pytorch, ultralytics, supervision and cv2 packages. For size estimation, a depth camera
-                        is used to estimate the distance between the rocks and the camera and then estimate the rock's size using
-                         the dimensions of the bounding boxes. Code will soon be open-sourced.</p>
+                        is used to estimate the size of the rocks. Model is also deployed on an NVIDIA Jetson Nano device, allowing
+                         real-time detection on rover cameras.
+                        Code will soon be open-sourced.</p>
                 </div>
             </div>
             <a href="" target="_blank" style="pointer-events: none;"><img src="images/mars_rock.jpeg" alt="Project Mars"></a>
