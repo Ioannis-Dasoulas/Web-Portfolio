@@ -1,536 +1,793 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta name="google-site-verification" content="LRRX3a0-Wwn5UYYc1P-WDEpnuy5-iabBBX-BgeFaXtA" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ioannis Dasoulas</title>
-    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/external-becris-flat-becris/64/000000/external-neural-data-science-becris-flat-becris.png">
+    <link rel="icon" type="image/x-icon"
+        href="https://img.icons8.com/external-becris-flat-becris/64/000000/external-neural-data-science-becris-flat-becris.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
 
-    <div class="nav-container">
-        <header>
-            <!-- <a href="index.html" class="logo">Ioannis Dasoulas</a> -->
-
-            <nav> 
-                <ul>
-                    <li><a href="#prtfl"> Works</a></li>
-                    <li><a href="#cntct"> Contact</a></li>
+    <!-- Modernized Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top modern-navbar">
+        <div class="container">
+            <!-- <a class="navbar-brand fw-bold" href="#">Ioannis Dasoulas</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#prtfl">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cntct">Contact</a>
+                    </li>
+                    <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+                        <a href="https://gr.linkedin.com/in/ioannis-dasoulas-065872225" target="_blank"
+                            class="nav-social-icon me-2"><i class="bi bi-linkedin fs-5"></i></a>
+                    </li>
+                    <li class="nav-item mt-3 mt-lg-0">
+                        <a href="https://github.com/TheRazorace" target="_blank" class="nav-social-icon"><i
+                                class="bi bi-github fs-5"></i></a>
+                    </li>
                 </ul>
-            </nav>
-        </header>
+            </div>
+        </div>
+    </nav>
 
-        <div class="social-header">
-            <ul>
-                <li><a href="https://gr.linkedin.com/in/ioannis-dasoulas-065872225" target="_blank"><img src="images/linkedin.png" width="30" height="30" alt="linkedin"></a></li>
-                <li><a href="https://github.com/TheRazorace" target="_blank"><img src="images/github.png" width="30" height="30" alt="github"></a></li>
+    <!-- Modernized Hero Section -->
+    <section class="hero-section d-flex align-items-center px-3 px-md-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content text-center text-lg-start z-1 py-5 py-lg-0 px-2 px-md-4">
+                    <h1 class="display-4 display-md-3 fw-bold mb-3 hero-title">Ioannis Dasoulas</h1>
+                    <h2 class="fs-5 fs-md-4 fw-light mb-4 text-white-50">PhD Researcher &amp; <br />Electrical and
+                        Computer Engineer</h2>
+                    <a href="#bio" class="btn btn-primary btn-lg rounded-pill px-5 py-3 shadow-sm custom-btn mt-2">Meet
+                        Me <i class="bi bi-arrow-right ms-2"></i></a>
+                </div>
+                <div class="col-lg-6 position-relative d-none d-lg-block z-0">
+                    <svg class="hero-design ms-auto" width="352" height="352" viewBox="0 0 352 352" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <rect class="square-anim" data-name="rectangle-2" x="176" width="88" height="88" rx="9"
+                            fill="#3b945e" />
+                        <rect class="square-anim" data-name="rectangle-10" x="264" y="88" width="88" height="88" rx="22"
+                            fill="#182628" fill-opacity="1" />
+                        <rect class="square-anim" data-name="rectangle-3" x="176" y="176" width="88" height="88" rx="22"
+                            fill="#b1bb78" />
+                        <rect class="square-anim" data-name="rectangle-5" x="88" y="88" width="88" height="88" rx="22"
+                            fill="#b1bb78" />
+                        <rect class="square-anim" data-name="rectangle-3" x="88" y="264" width="88" height="88" rx="22"
+                            fill="#F2f2f2" fill-opacity="0.83" />
+                        <rect class="square-anim" data-name="rectangle-9" y="176" width="88" height="88" rx="9"
+                            fill="#3b945e" fill-opacity="0.45" />
+                        <ellipse class="square-anim" data-name="rectangle-7" cx="220" cy="132" rx="43" ry="44"
+                            fill="#f2f2f2" />
+                        <ellipse class="square-anim" data-name="rectangle-4" cx="130" cy="220" rx="43" ry="44"
+                            fill="#182628" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section py-5" id="bio">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 order-2 order-lg-1 mt-5 mt-lg-0 text-center text-lg-start transition2">
+                    <p class="subtitle mb-2">Short Bio</p>
+                    <h3 class="fw-bold mb-4">Ioannis Dasoulas</h3>
+                    <p class="featured-desc lead fs-6 text-muted">
+                        Electrical and Computer Engineer, currently working as a Computer Science PhD Researcher.
+                        After graduating from University of Patras with an Integrated Master in Electrical and Computer
+                        Engineering and a specialization in machine learning, and software development, I started
+                        pursuing a PhD in Computer Science at KU Leuven. My research work focuses on data engineering
+                        for machine learning pipelines leveraging linked data, knowledge graph construction, and
+                        semantic enrichment methods. In my free time, I work on projects related to deep learning and
+                        cyber-physical systems, as well as for the Beyond Orbit robotics team as a machine learning
+                        engineer.
+                    </p>
+                </div>
+                <div class="col-lg-5 order-1 order-lg-2 text-center transition2">
+                    <img class="img-fluid rounded-circle shadow-lg profile-img" src="images/das6.jpg"
+                        alt="Ioannis Dasoulas">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="category-div py-4" id="prtfl">
+        <div class="container">
+            <ul class="nav nav-pills justify-content-center mb-4" id="portfolioTabs" role="tablist">
+                <li class="nav-item mx-2" role="presentation">
+                    <button class="nav-link active px-4 rounded-pill" id="pubButton" type="button"
+                        role="tab">Publications</button>
+                </li>
+                <li class="nav-item mx-2" role="presentation">
+                    <button class="nav-link px-4 rounded-pill" id="proButton" type="button"
+                        role="tab">Code/Projects</button>
+                </li>
             </ul>
         </div>
-    </div>
-
-    <div class="hero">
-        <div class="content">
-            <h1>Ioannis Dasoulas</h1>
-            <h2>PhD Researcher, Electrical and Computer Engineer</h2>
-            <!-- <div class="meet">
-                <span>&rarr;</span>
-                <p><a href="#bio" style="color: #182628;">Meet me</a></p>
-            </div> -->
-        </div>
-
-        <svg class="hero-design" width="352" height="352" viewBox="0 0 352 352" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect class="square-anim" data-name="rectangle-2" x="176" width="88" height="88" rx="9" fill="#3b945e"/>
-            <rect class="square-anim" data-name="rectangle-10" x="264" y="88" width="88" height="88" rx="22" fill="#182628" fill-opacity="1"/>
-            <rect class="square-anim" data-name="rectangle-3" x="176" y="176" width="88" height="88" rx="22" fill="#b1bb78"/>
-            <rect class="square-anim" data-name="rectangle-5" x="88" y="88" width="88" height="88" rx="22" fill="#b1bb78"/>
-            <rect class="square-anim" data-name="rectangle-3" x="88" y="264" width="88" height="88" rx="22" fill="#F2f2f2" fill-opacity="0.83"/>
-            <rect class="square-anim" data-name="rectangle-9" y="176" width="88" height="88" rx="9" fill="#3b945e" fill-opacity="0.45"/>
-            <ellipse class="square-anim" data-name="rectangle-7" cx="220" cy="132" rx="43" ry="44" fill="#f2f2f2"/>
-            <ellipse class="square-anim" data-name="rectangle-4" cx="130" cy="220" rx="43" ry="44" fill="#182628"/>
-          </svg>
-
-    </div>
-
-    <section class="featured" id="bio">
-        <div class="left">
-            <div class="inner transition2">
-                <p class="subtitle">Short Bio</p>
-                <a href="#" class="featured-title">Ioannis Dasoulas</a>
-                <p class="featured-desc">Electrical and Computer Engineer,
-                    currently working as a Computer Science PhD Researcher.
-                    After graduating from University of Patras with an Integrated Master
-                    in Electrical and Computer Engineering and a specialization in machine
-                    learning, and software development, I started pursuing a
-                    PhD in Computer Science at KU Leuven. My research work focuses on data
-                    engineering for machine learning pipelines leveraging linked data, 
-                    knowledge graph construction, and semantic enrichment methods.
-                    In my free time, I work on projects related to deep learning and cyber-physical
-                    systems, as well as for the Beyond Orbit robotics team as a machine learning engineer.  </p>     
-            </div>
-        </div>
-
-        <img class="right transition2" src="images/das6.jpg" alt="Featured Project">
-
     </section>
 
-    <section class="category-div" id="prtfl">
-        <div class="category-container">
-            <h1 role="button" onclick="publicationsClick()" class="category is-active" id="pubButton">Publications</h1>
-            <h1 role="button" onclick="projectsClick()" class="category" id="proButton">Projects</h1>
-        </div>
-    </section>
-    
-    <section class="portfolio" >
+    <section class="portfolio" id="portfolio-section">
+        <div class="container">
+            <div class="row">
 
-        <div class="portfolio-container transition3 proDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Embedded AI Project</p>
 
-                    <a href="https://github.com/TheRazorace/Jetson_Nano_Guide" target="_blank"><p class="featured-title">NVIDIA Jetson 
-                        Guide for Real-Time Deep Learning Inference from Scratch
-                    </p></a>
-                    <p class="featured-desc"> <u>Ioannis Dasoulas</u> <br>
-                        A detailed guide to set up NVIDIA Jetson devices in order to run custom deep learning models
-                        from scratch efficiently. The guide contains instructions on booting embedding devices, 
-                        configuring internet connection and memory, as well as setting up Python and running custom 
-                        deep learning code. </p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 proDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/TheRazorace/Jetson_Nano_Guide" target="_blank"
+                            class="card-img-wrapper" target="_blank">
+                            <img src="images/jetson_nano.png" class="card-img-top" alt="MLSeascape">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Embedded AI Project</p>
+                            <h5 class="card-title fw-bold mb-3"><a
+                                    href="https://github.com/TheRazorace/Jetson_Nano_Guide" target="_blank"
+                                    class="text-dark text-decoration-none portfolio-title-link">NVIDIA Jetson
+                                    Guide for Real-Time Deep Learning Inference from Scratch</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u> <br>
+                                A detailed guide to set up NVIDIA Jetson devices in order to run custom deep learning
+                                models
+                                from scratch efficiently. The guide contains instructions on booting embedding devices,
+                                configuring internet connection and memory, as well as setting up Python and running
+                                custom
+                                deep learning code.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/TheRazorace/Jetson_Nano_Guide" target="_blank"><img src="images/jetson_nano.png" alt="MLSeascape"></a>
-        </div>
 
-        <div class="portfolio-container transition3 pubDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Publication</p>
 
-                    <a href="https://2024.eswc-conferences.org/wp-content/uploads/2024/04/ESWC_2024_paper_350.pdf" target="_blank"><p class="featured-title">MLSeascape:
-                         Machine Learning Metadata Search Empowered by Knowledge Graphs</p></a>
-                    <p class="featured-desc"> <u>Ioannis Dasoulas</u>, Duo Yang, Anastasia Dimou <br>
-                        A web application built on-top of MLSea-KG, which allows seamless search over machine learning 
-                        knowledge from all over the web. The user is able to search for machine learning datasets, models,
-                        software, tasks, implementations, algorithms and publications as well as view their metadata. The application
-                        is open-source.</p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 pubDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://2024.eswc-conferences.org/wp-content/uploads/2024/04/ESWC_2024_paper_350.pdf"
+                            target="_blank" class="card-img-wrapper" target="_blank">
+                            <img src="images/mlseascape.png" class="card-img-top" alt="MLSeascape">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Publication</p>
+                            <h5 class="card-title fw-bold mb-3"><a
+                                    href="https://2024.eswc-conferences.org/wp-content/uploads/2024/04/ESWC_2024_paper_350.pdf"
+                                    target="_blank"
+                                    class="text-dark text-decoration-none portfolio-title-link">MLSeascape:
+                                    Machine Learning Metadata Search Empowered by Knowledge Graphs</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u>, Duo Yang, Anastasia
+                                Dimou <br>
+                                A web application built on-top of MLSea-KG, which allows seamless search over machine
+                                learning
+                                knowledge from all over the web. The user is able to search for machine learning
+                                datasets, models,
+                                software, tasks, implementations, algorithms and publications as well as view their
+                                metadata. The application
+                                is open-source.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://2024.eswc-conferences.org/wp-content/uploads/2024/04/ESWC_2024_paper_350.pdf" target="_blank"><img src="images/mlseascape.png" alt="MLSeascape"></a>
-        </div>
 
-        <div class="portfolio-container transition3 pubDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Publication</p>
 
-                    <a href="https://github.com/dtai-kg/MLSea-Discover" target="_blank"><p class="featured-title">MLSea-KG:
-                         A Knowledge Graph for Machine Learning Experiments</p></a>
-                    <p class="featured-desc"> <u>Ioannis Dasoulas</u>, Duo Yang, Anastasia Dimou <br>
-                        A declaratively constructed and regularly updated KG with more than 1.44 billion RDF
-                        triples of ML experiments, regarding datasets used in ML experiments, tasks, implementations and related
-                        hyper-parameters, experiment executions, their configuration settings and evaluation results, code
-                        notebooks and repositories, algorithms, publications, models, scientists and practitioners. It 
-                        integrates data from OpenML, Kaggle and Papers with Code.</p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 pubDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/dtai-kg/MLSea-Discover" target="_blank" class="card-img-wrapper"
+                            target="_blank">
+                            <img src="images/kgc.jpg" class="card-img-top" alt="MLSea-KG">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Publication</p>
+                            <h5 class="card-title fw-bold mb-3"><a href="https://github.com/dtai-kg/MLSea-Discover"
+                                    target="_blank"
+                                    class="text-dark text-decoration-none portfolio-title-link">MLSea-KG:
+                                    A Knowledge Graph for Machine Learning Experiments</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u>, Duo Yang, Anastasia
+                                Dimou <br>
+                                A declaratively constructed and regularly updated KG with more than 1.44 billion RDF
+                                triples of ML experiments, regarding datasets used in ML experiments, tasks,
+                                implementations and related
+                                hyper-parameters, experiment executions, their configuration settings and evaluation
+                                results, code
+                                notebooks and repositories, algorithms, publications, models, scientists and
+                                practitioners. It
+                                integrates data from OpenML, Kaggle and Papers with Code.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/dtai-kg/MLSea-Discover" target="_blank"><img src="images/kgc.jpg" alt="MLSea-KG"></a>
-        </div>
 
-        <div class="portfolio-container transition3 pubDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Publication</p>
 
-                    <a href="https://github.com/dtai-kg/MLSO" target="_blank"><p class="featured-title">MLSO: A Machine Learning Ontology</p></a>
-                    <p class="featured-desc"> <u>Ioannis Dasoulas</u>, Duo Yang, Anastasia Dimou <br>
-                        The Machine Learning Sailor Ontology (MLSO) is an ontology that formally
-                        represents machine learning datasets, along with their features and characteristics, machine
-                        learning tasks, their implementations, experiments and their executions, relevant software
-                        and publications, all complemented with rich metadata. The ontology was developed in a
-                        data-centric manner, with the goal of curating data from diverse machine learning publicly
-                        available sources, examining machine-learning-related data and metadata from online repositories,
-                        such as OpenML, Kaggle and Papers with Code.</p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 pubDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/dtai-kg/MLSO" target="_blank" class="card-img-wrapper"
+                            target="_blank">
+                            <img src="images/UML2.jpg" class="card-img-top" alt="MLSO">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Publication</p>
+                            <h5 class="card-title fw-bold mb-3"><a href="https://github.com/dtai-kg/MLSO"
+                                    target="_blank" class="text-dark text-decoration-none portfolio-title-link">MLSO: A
+                                    Machine Learning Ontology</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u>, Duo Yang, Anastasia
+                                Dimou <br>
+                                The Machine Learning Sailor Ontology (MLSO) is an ontology that formally
+                                represents machine learning datasets, along with their features and characteristics,
+                                machine
+                                learning tasks, their implementations, experiments and their executions, relevant
+                                software
+                                and publications, all complemented with rich metadata. The ontology was developed in a
+                                data-centric manner, with the goal of curating data from diverse machine learning
+                                publicly
+                                available sources, examining machine-learning-related data and metadata from online
+                                repositories,
+                                such as OpenML, Kaggle and Papers with Code.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/dtai-kg/MLSO" target="_blank"><img src="images/UML2.jpg" alt="MLSO"></a>
-        </div>
 
-        <div class="portfolio-container transition3 pubDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Publication</p>
 
-                    <a href="https://ceur-ws.org/Vol-3557/paper2.pdf" target="_blank"><p class="featured-title">TorchicTab: 
-                        Semantic Table Annotation with Wikidata and Language Models </p></a>
-                    <p class="featured-desc"> <u>Ioannis Dasoulas</u>, Duo Yang, Xuemin Duan, Anastasia Dimou <br>
-                        A versatile semantic table interpretation system able to annotate tables with varied structures
-                        by using either an external knowledge graph, such as Wikidata, or annotated tables with pre-defined 
-                        terms for training, leveraging kanguage models. TorchicTab achieved 1st place in the 2023 
-                        SemTab accuracy competition hosted at ISWC 2023. <br> 
-                        <a href="https://ceur-ws.org/Vol-3557/paper2.pdf" target="_blank">Paper</a> </p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 pubDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://ceur-ws.org/Vol-3557/paper2.pdf" target="_blank" class="card-img-wrapper"
+                            target="_blank">
+                            <img src="images/semtab.png" class="card-img-top" alt="TorchicTab">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Publication</p>
+                            <h5 class="card-title fw-bold mb-3"><a href="https://ceur-ws.org/Vol-3557/paper2.pdf"
+                                    target="_blank"
+                                    class="text-dark text-decoration-none portfolio-title-link">TorchicTab:
+                                    Semantic Table Annotation with Wikidata and Language Models</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u>, Duo Yang, Xuemin Duan,
+                                Anastasia Dimou <br>
+                                A versatile semantic table interpretation system able to annotate tables with varied
+                                structures
+                                by using either an external knowledge graph, such as Wikidata, or annotated tables with
+                                pre-defined
+                                terms for training, leveraging kanguage models. TorchicTab achieved 1st place in the
+                                2023
+                                SemTab accuracy competition hosted at ISWC 2023. <br>
+                                <a href="https://ceur-ws.org/Vol-3557/paper2.pdf" target="_blank">Paper</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://ceur-ws.org/Vol-3557/paper2.pdf" target="_blank"><img src="images/semtab.png" alt="TorchicTab"></a>
-        </div>
 
-        <div class="portfolio-container transition3 pubDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Publication</p>
 
-                    <a href="https://github.com/morph-kgc/morph-kgc" target="_blank"><p class="featured-title">Declarative RDF Construction 
-                        from In-Memory Data Sources </p></a>
-                    <p class="featured-desc"> <u>Ioannis Dasoulas</u>, David Chaves-Fraga, Daniel Garijo, Anastasia Dimou <br>
-                        A method to construct RDF graphs from data produced by a software process and stored in RAM.
-                        RML's syntax is extended to describe software produced data sources. Morph-KGC is extended 
-                        to also construct KGs from Python data using the proposed syntax. <br> 
-                        <a href="https://ceur-ws.org/Vol-3471/paper7.pdf" target="_blank">Paper</a> </p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 pubDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/morph-kgc/morph-kgc" target="_blank" class="card-img-wrapper"
+                            target="_blank">
+                            <img src="images/morph.png" class="card-img-top" alt="Morph-KGC">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Publication</p>
+                            <h5 class="card-title fw-bold mb-3"><a href="https://github.com/morph-kgc/morph-kgc"
+                                    target="_blank"
+                                    class="text-dark text-decoration-none portfolio-title-link">Declarative RDF
+                                    Construction
+                                    from In-Memory Data Sources</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u>, David Chaves-Fraga,
+                                Daniel Garijo, Anastasia Dimou <br>
+                                A method to construct RDF graphs from data produced by a software process and stored in
+                                RAM.
+                                RML's syntax is extended to describe software produced data sources. Morph-KGC is
+                                extended
+                                to also construct KGs from Python data using the proposed syntax. <br>
+                                <a href="https://ceur-ws.org/Vol-3471/paper7.pdf" target="_blank">Paper</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/morph-kgc/morph-kgc" target="_blank"><img src="images/morph.png" alt="Morph-KGC"></a>
-        </div>
 
-        <div class="portfolio-container transition3 pubDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Publication</p>
 
-                    <a href="https://github.com/oeg-upm/yatter" target="_blank"><p class="featured-title">Human-Friendly RDF Construction </p></a>
-                    <p class="featured-desc"> Ana Iglesias-Molina, David Chaves-Fraga, <u>Ioannis Dasoulas</u>, Anastasia Dimou <br>
-                        A set of updates over the YARRRML serialisation to empower it with the latest necessities for constructing RDF graphs, 
-                        accompanied with an implementation of these features in a new open-source translator, Yatter, currently used in different
-                        real use cases and international projects, as well as with a qualitative comparison of this proposal against similar state-of-the-art
-                        serialisations, and their associated translators over a set of conformance test cases. <br> 
-                        <a href="https://davidchavesfraga.com/outcomes/papers/2023/iglesias2023yatter.pdf" target="_blank">Paper</a> </p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 pubDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/oeg-upm/yatter" target="_blank" class="card-img-wrapper"
+                            target="_blank">
+                            <img src="images/rmlio.png" class="card-img-top" alt="Yatter">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Publication</p>
+                            <h5 class="card-title fw-bold mb-3"><a href="https://github.com/oeg-upm/yatter"
+                                    target="_blank"
+                                    class="text-dark text-decoration-none portfolio-title-link">Human-Friendly RDF
+                                    Construction</a></h5>
+                            <p class="card-text text-muted flex-grow-1">Ana Iglesias-Molina, David Chaves-Fraga,
+                                <u>Ioannis Dasoulas</u>, Anastasia Dimou <br>
+                                A set of updates over the YARRRML serialisation to empower it with the latest
+                                necessities for constructing RDF graphs,
+                                accompanied with an implementation of these features in a new open-source translator,
+                                Yatter, currently used in different
+                                real use cases and international projects, as well as with a qualitative comparison of
+                                this proposal against similar state-of-the-art
+                                serialisations, and their associated translators over a set of conformance test cases.
+                                <br>
+                                <a href="https://davidchavesfraga.com/outcomes/papers/2023/iglesias2023yatter.pdf"
+                                    target="_blank">Paper</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/oeg-upm/yatter" target="_blank"><img src="images/rmlio.png" alt="Yatter"></a>
-        </div>
 
-        <div class="portfolio-container transition3 proDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Computer Vision Project</p>
 
-                    <p class="featured-title">Mars Rock Segmentation 
-                        and Size Estimation for Autonomous Rovers
-                    </p>
-                    <p class="featured-desc"> <u>Ioannis Dasoulas</u> <br>
-                        Computer vision project that aims to identify and segment rocks in a Mars-like environment. 
-                        YOLOv8 is used for rock detection and segmentation, as well as the MarsData dataset. Project is 
-                        developed with pytorch, ultralytics, supervision and cv2 packages. For size estimation, a depth camera
-                        is used to estimate the size of the rocks. Model is also deployed on an NVIDIA Jetson Nano device, allowing
-                         real-time detection on rover cameras.
-                        Code will soon be open-sourced.</p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 proDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="" target="_blank" class="card-img-wrapper" target="_blank"
+                            style="pointer-events: none;">
+                            <img src="images/mars_rock.jpeg" class="card-img-top" alt="Project Mars">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Computer Vision Project</p>
+                            <h5 class="card-title fw-bold mb-3"><a href="" target="_blank"
+                                    class="text-dark text-decoration-none portfolio-title-link">Mars Rock Segmentation
+                                    and Size Estimation for Autonomous Rovers</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u> <br>
+                                Computer vision project that aims to identify and segment rocks in a Mars-like
+                                environment.
+                                YOLOv8 is used for rock detection and segmentation, as well as the MarsData dataset.
+                                Project is
+                                developed with pytorch, ultralytics, supervision and cv2 packages. For size estimation,
+                                a depth camera
+                                is used to estimate the size of the rocks. Model is also deployed on an NVIDIA Jetson
+                                Nano device, allowing
+                                real-time detection on rover cameras.
+                                Code will soon be open-sourced.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="" target="_blank" style="pointer-events: none;"><img src="images/mars_rock.jpeg" alt="Project Mars"></a>
-        </div>
 
-        <div class="portfolio-container transition3 proDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Data Engineering Project</p>
-                    
-                    <a href="https://github.com/TheRazorace/kg3d-torchic-tab-demo" target="_blank"><p class="featured-title">Automated Feature Enrichment
-                         for Tabular Data with Semantic Table Annotation
-                    </p></a>
-                    <p class="featured-desc"> <u>Ioannis Dasoulas</u> <br>
-                        Data engineering demo that leverages semantic table annotation to analyze tabular
-                         data, providing information about the column cells, types and relationships. The semantic 
-                        annotations are used for querying external large knowledge bases and extracting more features about the 
-                        table. In this demo we start with a table of airplanes, airplane families and airlines and manage to 
-                        automatically extract new features such as wingspan, plane length, height and maximum operating altitude.</p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 proDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/TheRazorace/kg3d-torchic-tab-demo" target="_blank"
+                            class="card-img-wrapper" target="_blank">
+                            <img src="images/data-enrichment.jpg" class="card-img-top" alt="Project Mars">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Data Engineering Project</p>
+                            <h5 class="card-title fw-bold mb-3"><a
+                                    href="https://github.com/TheRazorace/kg3d-torchic-tab-demo" target="_blank"
+                                    class="text-dark text-decoration-none portfolio-title-link">Automated Feature
+                                    Enrichment
+                                    for Tabular Data with Semantic Table Annotation</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u> <br>
+                                Data engineering demo that leverages semantic table annotation to analyze tabular
+                                data, providing information about the column cells, types and relationships. The
+                                semantic
+                                annotations are used for querying external large knowledge bases and extracting more
+                                features about the
+                                table. In this demo we start with a table of airplanes, airplane families and airlines
+                                and manage to
+                                automatically extract new features such as wingspan, plane length, height and maximum
+                                operating altitude.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a target="_blank" href="https://github.com/TheRazorace/kg3d-torchic-tab-demo"><img src="images/data-enrichment.jpg" alt="Project Mars"></a>
-        </div>
 
-        <div class="portfolio-container transition3 proDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Natural Language Processing Project</p>
-                    
-                    <a href="https://github.com/TheRazorace/trigram-lm" target="_blank"><p class="featured-title">Simple
-                         Trigram Language Model for City Name Generation with PyTorch
-                    </p></a>
-                    <p class="featured-desc"> <u>Ioannis Dasoulas</u> <br>
-                        This project explores the usage of basic n-gram neural networks for character generation.
-                        A trigram neural network is trained on character pairs from greek city names to produce new city names.
-                        The project is an exercise task inspired by <a target="_blank" href="https://github.com/karpathy/makemore">makemore's</a> challenges.
-                        PyTorch is used for model development and training.
-                    </p>
+
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 proDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/TheRazorace/trigram-lm" target="_blank" class="card-img-wrapper"
+                            target="_blank">
+                            <img src="images/ngram.png" class="card-img-top" alt="Project">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Natural Language Processing
+                                Project</p>
+                            <h5 class="card-title fw-bold mb-3"><a href="https://github.com/TheRazorace/trigram-lm"
+                                    target="_blank" class="text-dark text-decoration-none portfolio-title-link">Simple
+                                    Trigram Language Model for City Name Generation</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u> <br>
+                                This project explores the usage of basic n-gram neural networks for character
+                                generation. A trigram neural network is trained on character pairs from greek city names
+                                to produce novel city names. The project is an exercise task inspired by makemore's
+                                challenges. PyTorch is used for model development and training.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a target="_blank" href="https://github.com/TheRazorace/trigram-lm"><img src="images/ngram.png" alt="Project Mars"></a>
-        </div>
 
-        <div class="portfolio-container transition3 proDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Robot Navigation Project</p>
-
-                    <a href="https://github.com/TheRazorace/rover_surface_reconstruction" target="_blank"><p class="featured-title">Point Cloud Surface Reconstruction for Autonomous Rovers
-                    </p></a>
-                    <p class="featured-desc"> <u>Ioannis Dasoulas</u> <br>
-                        Robot navigation project that leverages point clouds inferred by rovers to reconstruct
-                        the surface and spaces around it. Different surface reconstruction and point cloud 
-                        processing methods are tested. Point cloud segmentation are also leveraged to cluster the incoming
-                        point clouds. Open3D package is used. </p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 proDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/TheRazorace/rover_surface_reconstruction" target="_blank"
+                            class="card-img-wrapper" target="_blank">
+                            <img src="images/surface_reconstruction.png" class="card-img-top" alt="Project">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Robot Navigation Project</p>
+                            <h5 class="card-title fw-bold mb-3"><a
+                                    href="https://github.com/TheRazorace/rover_surface_reconstruction" target="_blank"
+                                    class="text-dark text-decoration-none portfolio-title-link">Point Cloud Surface
+                                    Reconstruction for Autonomous Rovers</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u> <br>
+                                Robot navigation project that leverages point clouds inferred by rovers to reconstruct
+                                the surface and spaces around it. Different surface reconstruction and point cloud
+                                processing methods are tested. Point cloud segmentation are also leveraged to cluster
+                                the incoming point clouds. Open3D package is used.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/TheRazorace/rover_surface_reconstruction" target="_blank" ><img src="images/surface_reconstruction.png" alt="Project Mars"></a>
-        </div>
 
-        <div class="portfolio-container transition3 proDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Machine learning project (Diploma Thesis)</p>
 
-                    <a href="https://github.com/TheRazorace/Python-Chess-Engine" target="_blank"><p class="featured-title">Chess Engine Development
-                        using Deep Learning Techniques
-                    </p></a>
-                    <p class="featured-desc"> <u>Ioannis Dasoulas</u> <br>
-                        Three chess engines (Python Machine Learning Chess Engine) based
-                        on machine learning, and more specifically on reinforcement and supervised learning. The chess engines were 
-                        developed using Python programming language. In total, three different game models 
-                        were created, a model that was trained by playing games against itself, a model that 
-                        was trained with data from past professional games stored in online databases and a 
-                        combinational model that was trained using both methods. The engines’ choice of 
-                        move is made using Monte Carlo Tree Search, which is a heuristic algorithm for certain 
-                        types of decision-making processes.</p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 proDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/TheRazorace/Python-Chess-Engine" target="_blank"
+                            class="card-img-wrapper" target="_blank">
+                            <img src="images/project1.jpg" class="card-img-top" alt="Project 1">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Machine learning project (Diploma
+                                Thesis)</p>
+                            <h5 class="card-title fw-bold mb-3"><a
+                                    href="https://github.com/TheRazorace/Python-Chess-Engine" target="_blank"
+                                    class="text-dark text-decoration-none portfolio-title-link">Chess Engine Development
+                                    using Deep Learning Techniques</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u> <br>
+                                Three chess engines (Python Machine Learning Chess Engine) based
+                                on machine learning, and more specifically on reinforcement and supervised learning. The
+                                chess engines were
+                                developed using Python programming language. In total, three different game models
+                                were created, a model that was trained by playing games against itself, a model that
+                                was trained with data from past professional games stored in online databases and a
+                                combinational model that was trained using both methods. The engines’ choice of
+                                move is made using Monte Carlo Tree Search, which is a heuristic algorithm for certain
+                                types of decision-making processes.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/TheRazorace/Python-Chess-Engine" target="_blank"><img src="images/project1.jpg" alt="Project 1"></a>
-        </div>
 
-        <div class="portfolio-container transition3 proDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Web development project (Diploma Thesis Side Project)</p>
 
-                    <a href="https://github.com/TheRazorace/Python-Chess-Engine" target="_blank"><p class="featured-title">Chess Playing Website</p></a>
-                    <p class="featured-desc"><u>Ioannis Dasoulas</u> <br>
-                        Online application that allows the user to play against the chess engines
-                         mentioned on the above project, but also to watch them play against each other. The website was
-                         created using, Python (Flask API), HTML5, CSS and Javascript.</p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 proDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/TheRazorace/Python-Chess-Engine" target="_blank"
+                            class="card-img-wrapper" target="_blank">
+                            <img src="images/project2.jpg" class="card-img-top" alt="Project 2">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Web development project (Diploma
+                                Thesis Side Project)</p>
+                            <h5 class="card-title fw-bold mb-3"><a
+                                    href="https://github.com/TheRazorace/Python-Chess-Engine" target="_blank"
+                                    class="text-dark text-decoration-none portfolio-title-link">Chess Playing
+                                    Website</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u> <br>
+                                Online application that allows the user to play against the chess engines
+                                mentioned on the above project, but also to watch them play against each other. The
+                                website was
+                                created using, Python (Flask API), HTML5, CSS and Javascript.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/TheRazorace/Python-Chess-Engine" target="_blank"><img src="images/project2.jpg" alt="Project 2"></a>
-        </div>
 
-        <div class="portfolio-container transition3 proDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Database Application</p>
 
-                    <a href="https://github.com/TheRazorace/DB_Project" target="_blank"><p class="featured-title">Energy Distribution System Application</p></a>
-                    <p class="featured-desc"> <u>Ioannis Dasoulas</u>, Aristeidis Dourdounas  <br>
-                        Creation of an app about an energy distribution system. The app
-                         is meant to be used by a company that manages the distribution of electrical energy.
-                          The app provides a general picture of the distribution network, providing information about citizens'
-                           energy consumption and the energy produced by indepedent units of renewable energy.
-                           The project is written in Python and SQL. 
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 proDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/TheRazorace/DB_Project" target="_blank" class="card-img-wrapper"
+                            target="_blank">
+                            <img src="images/power-distribution.jpg" class="card-img-top" alt="Project 3">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Database Application</p>
+                            <h5 class="card-title fw-bold mb-3"><a href="https://github.com/TheRazorace/DB_Project"
+                                    target="_blank" class="text-dark text-decoration-none portfolio-title-link">Energy
+                                    Distribution System Application</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u>, Aristeidis Dourdounas
+                                <br>
+                                Application about an energy distribution system. The app is meant to be used by a
+                                company
+                                that manages the distribution of electrical energy. The app provides a general picture
+                                of the distribution network, providing information about citizens' energy consumption
+                                and the energy produced by indepedent units of renewable energy. The project is written
+                                in Python and SQL.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/TheRazorace/DB_Project" target="_blank"><img src="images/power-distribution.jpg" alt="Project 3"></a>
-        </div>
 
-        <div class="portfolio-container transition3 proDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Web development project</p>
 
-                    <a href="https://github.com/TheRazorace/Web-Development/blob/main/Smarthome%20Project.md" target="_blank"><p class="featured-title">Smart-Home Application</p></a>
-                    <p class="featured-desc"> Christoforos Vaggelis, <u>Ioannis Dasoulas</u> <br>
-                        Application meant to simulate a real smart home application which enables the user to control smart
-                         devices in his/her house and assign each device to a room of his/her house.
-                         The application provides three access levels for three different classes of users, assigned by the administrator of the house.
-                        Application is written in HTML5, CSS, Javascript, using Node JS and express.js for backend as well as Bootstrap for frontend.
-                        The website is uploaded on Azure websites (currently offline). 
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 proDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/TheRazorace/Web-Development/blob/main/Smarthome%20Project.md"
+                            target="_blank" class="card-img-wrapper" target="_blank">
+                            <img src="images/project4.JPG" class="card-img-top" alt="Project 4">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Web development project</p>
+                            <h5 class="card-title fw-bold mb-3"><a
+                                    href="https://github.com/TheRazorace/Web-Development/blob/main/Smarthome%20Project.md"
+                                    target="_blank"
+                                    class="text-dark text-decoration-none portfolio-title-link">Smart-Home
+                                    Application</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u>, Christoforos Vaggelis
+                                <br>
+                                Application that simulates a real smart home application which enables the user to
+                                control smart devices in his/her house and assign each device to a room of his/her
+                                house. The application provides three access levels for three different classes of
+                                users, assigned by the administrator of the house. Application is written in HTML5, CSS,
+                                Javascript, using Node JS and express.js for backend as well as Bootstrap for frontend.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/TheRazorace/Web-Development/blob/main/Smarthome%20Project.md" target="_blank"><img src="images/project4.JPG" alt="Project 4"></a>
-        </div>
 
-        <div class="portfolio-container transition3 proDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Machine learning project</p>
 
-                    <a href="https://github.com/TheRazorace/Python-Projects/tree/master/Real%20Estate%20Price%20Prediction" target="_blank"><p class="featured-title">Real Estate Value Prediction Algorithms</p></a>
-                    <p class="featured-desc"> <u>Ioannis Dasoulas</u> <br>
-                        Python project using 9 house characteristics such as location, area population and number of rooms
-                         to predict the value of houses. The prediction is accomplished using: a)
-                         Least Mean Squares Linear Regression, b) Ordinary Least Squares Regression and c) Neural Network. 
-                         </p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 proDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/TheRazorace/Python-Projects/tree/master/Real%20Estate%20Price%20Prediction"
+                            target="_blank" class="card-img-wrapper" target="_blank">
+                            <img src="images/project16.JPG" class="card-img-top" alt="Project 16">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Machine learning project</p>
+                            <h5 class="card-title fw-bold mb-3"><a
+                                    href="https://github.com/TheRazorace/Python-Projects/tree/master/Real%20Estate%20Price%20Prediction"
+                                    target="_blank" class="text-dark text-decoration-none portfolio-title-link">Real
+                                    Estate Value Prediction Algorithms</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u> <br>
+                                Python project using 9 house characteristics such as location, area population and
+                                number of rooms
+                                to predict the value of houses. The prediction is accomplished using: a)
+                                Least Mean Squares Linear Regression, b) Ordinary Least Squares Regression and c) Neural
+                                Network.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/TheRazorace/Python-Projects/tree/master/Real%20Estate%20Price%20Prediction" target="_blank"><img src="images/project16.JPG" alt="Project 16"></a>
-        </div>
 
-        <div class="portfolio-container transition3 proDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Human-Computer interaction project</p>
 
-                    <a href="https://github.com/TheRazorace/MyDidaskalia" target="_blank"><p class="featured-title">MyDidaskalia Application</p></a>
-                    <p class="featured-desc"> <u>Ioannis Dasoulas</u>, Christoforos Vaggelis <br>
-                        Zoom optimization project about designing an application named "MyDidaskalia" used for modern online
-                         lessons. The first part of the project was evaluating well known applications used for this purpose. The second part was
-                          choosing one of those applications (Zoom was chosen) and trying to improve it following human-computer interaction rules.
- 
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 proDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/TheRazorace/MyDidaskalia" target="_blank" class="card-img-wrapper"
+                            target="_blank">
+                            <img src="images/project5.JPG" class="card-img-top" alt="Project 5">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Human-Computer interaction project
+                            </p>
+                            <h5 class="card-title fw-bold mb-3"><a href="https://github.com/TheRazorace/MyDidaskalia"
+                                    target="_blank"
+                                    class="text-dark text-decoration-none portfolio-title-link">MyDidaskalia
+                                    Application</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u>, Christoforos Vaggelis
+                                <br>
+                                Zoom optimization project about designing an application named "MyDidaskalia" used for
+                                modern online lessons. The first part of the project was evaluating well known
+                                applications used for this purpose. The second part was choosing one of those
+                                applications (Zoom was chosen) and trying to improve it following human-computer
+                                interaction rules.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/TheRazorace/MyDidaskalia" target="_blank"><img src="images/project5.JPG" alt="Project 5"></a>
-        </div>
 
-        <div class="portfolio-container transition3 proDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Data retrieval project</p>
 
-                    <a href="https://github.com/TheRazorace/Python-Projects/tree/master/Data%20Retrieval%20Project%20Code" target="_blank"><p class="featured-title">Movie Search Engine Application</p></a>
-                    <p class="featured-desc"> <u>Ioannis Dasoulas</u> <br>
-                        Movie search engine based on elasticsearch. The search engine decides the order of results' presentation
-                         utilizing machine learning techniques. The order of presentation depends on elasticsearh similarity metrics, user ratings,
-                          average ratings and user clustering. Word embeddings were also used to predict missing ratings of certain movies for the users.
-                        </p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 proDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/TheRazorace/Python-Projects/tree/master/Data%20Retrieval%20Project%20Code"
+                            target="_blank" class="card-img-wrapper" target="_blank">
+                            <img src="images/project6.JPG" class="card-img-top" alt="Project 6">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Data retrieval project</p>
+                            <h5 class="card-title fw-bold mb-3"><a
+                                    href="https://github.com/TheRazorace/Python-Projects/tree/master/Data%20Retrieval%20Project%20Code"
+                                    target="_blank" class="text-dark text-decoration-none portfolio-title-link">Movie
+                                    Search Engine Application</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u> <br>
+                                Movie search engine based on elasticsearch. The search engine decides the order of
+                                results' presentation
+                                utilizing machine learning techniques. The order of presentation depends on elasticsearh
+                                similarity metrics, user ratings,
+                                average ratings and user clustering. Word embeddings were also used to predict missing
+                                ratings of certain movies for the users.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/TheRazorace/Python-Projects/tree/master/Data%20Retrieval%20Project%20Code" target="_blank"><img src="images/project6.JPG" alt="Project 6"></a>
-        </div>
 
-        <div class="portfolio-container transition3 proDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Parallel programming project</p>
 
-                    <a href="https://github.com/TheRazorace/C-Projects/tree/master/Parallel%20programming" target="_blank"><p class="featured-title">OpenMP Utilization in Classic Algorithms</p></a>
-                    <p class="featured-desc"> <u>Ioannis Dasoulas</u> <br>
-                        Four projects about the utilization of OpenMP library in parallel programming. The library is used to 
-                        accelerate the runtime of the classic K-Means algorithm, the travelling salesperson problem and the error-backpropagation
-                         computation in neural networks. All algorithms are written in C language.</p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 proDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/TheRazorace/C-Projects/tree/master/Parallel%20programming"
+                            target="_blank" class="card-img-wrapper" target="_blank">
+                            <img src="images/project7.jpg" class="card-img-top" alt="Project 7">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Parallel programming project</p>
+                            <h5 class="card-title fw-bold mb-3"><a
+                                    href="https://github.com/TheRazorace/C-Projects/tree/master/Parallel%20programming"
+                                    target="_blank" class="text-dark text-decoration-none portfolio-title-link">OpenMP
+                                    Utilization in Classic Algorithms</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u> <br>
+                                Four projects about the utilization of OpenMP library in parallel programming. The
+                                library is used to
+                                accelerate the runtime of the classic K-Means algorithm, the travelling salesperson
+                                problem and the error-backpropagation
+                                computation in neural networks. All algorithms are written in C language.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/TheRazorace/C-Projects/tree/master/Parallel%20programming" target="_blank"><img src="images/project7.jpg" alt="Project 7"></a>
-        </div>
 
-        <div class="portfolio-container transition3 proDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Java multi-thread project</p>
 
-                    <a href="https://github.com/TheRazorace/Java-Projects/tree/master/Sleeping%20Barber%20Application" target="_blank"><p class="featured-title">Sleeping Barber Problem Application</p></a>
-                    <p class="featured-desc"> <u>Ioannis Dasoulas</u> <br>
-                        Classic sleeping barber problem implementated in Java language using object oriented techniques and thread syncronization.</p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 proDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/TheRazorace/Java-Projects/tree/master/Sleeping%20Barber%20Application"
+                            target="_blank" class="card-img-wrapper" target="_blank">
+                            <img src="images/project8.jpg" class="card-img-top" alt="Project 8">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Java multi-thread project</p>
+                            <h5 class="card-title fw-bold mb-3"><a
+                                    href="https://github.com/TheRazorace/Java-Projects/tree/master/Sleeping%20Barber%20Application"
+                                    target="_blank" class="text-dark text-decoration-none portfolio-title-link">Sleeping
+                                    Barber Problem Application</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u> <br>
+                                Classic sleeping barber problem implementated in Java language using object oriented
+                                techniques and thread syncronization.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/TheRazorace/Java-Projects/tree/master/Sleeping%20Barber%20Application" target="_blank"><img src="images/project8.jpg" alt="Project 8"></a>
-        </div>
 
-        <div class="portfolio-container transition3 proDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Java server-client project</p>
 
-                    <a href="https://github.com/TheRazorace/Java-Projects/tree/master/Blood%20Pressure%20Monitoring%20System" target="_blank"><p class="featured-title">Blood Pressure Monitoring System Application</p></a>
-                    <p class="featured-desc"> <u>Ioannis Dasoulas</u> <br>
-                        Application that has both server and client modes. Users can send medical data through the client interface
-                         to the server or use the server interface to view data sent by the clients, sort them, find spesific details, delete them or save
-                          them to a local file.</p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 proDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/TheRazorace/Java-Projects/tree/master/Blood%20Pressure%20Monitoring%20System"
+                            target="_blank" class="card-img-wrapper" target="_blank">
+                            <img src="images/project9.JPG" class="card-img-top" alt="Project 9">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Java server-client project</p>
+                            <h5 class="card-title fw-bold mb-3"><a
+                                    href="https://github.com/TheRazorace/Java-Projects/tree/master/Blood%20Pressure%20Monitoring%20System"
+                                    target="_blank" class="text-dark text-decoration-none portfolio-title-link">Blood
+                                    Pressure Monitoring System Application</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u> <br>
+                                Application that has both server and client modes. Users can send medical data through
+                                the client interface
+                                to the server or use the server interface to view data sent by the clients, sort them,
+                                find spesific details, delete them or save
+                                them to a local file.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/TheRazorace/Java-Projects/tree/master/Blood%20Pressure%20Monitoring%20System" target="_blank"><img src="images/project9.JPG" alt="Project 9"></a>
-        </div>
 
-        <!-- <div class="portfolio-container transition3">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Java project</p>
-
-                    <a href="https://github.com/TheRazorace/Java-Projects/tree/master/Calculator%20GUI" target="_blank"><p class="featured-title">RPN Calculator Application</p></a>
-                    <p class="featured-desc">Reverse polish notation calculator, supporting many numerical functions, with GUI implementated in Java using Jframe.</p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 proDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/TheRazorace/VLSI-II-" target="_blank" class="card-img-wrapper"
+                            target="_blank">
+                            <img src="images/project11.jpg" class="card-img-top" alt="Project 11">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">VLSI project</p>
+                            <h5 class="card-title fw-bold mb-3"><a href="https://github.com/TheRazorace/VLSI-II-"
+                                    target="_blank" class="text-dark text-decoration-none portfolio-title-link">VHDL
+                                    Circuits Simulation</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u> <br>
+                                Classic circuits simulation and experimentaition using VHDL language and the ModelSim
+                                environment.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/TheRazorace/Java-Projects/tree/master/Calculator%20GUI" target="_blank"><img src="images/project10.jpg" alt="Project 10"></a>
-        </div> -->
 
-        <div class="portfolio-container transition3 proDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">VLSI project</p>
-
-                    <a href="https://github.com/TheRazorace/VLSI-II-" target="_blank"><p class="featured-title">VHDL Circuits Simulation</p></a>
-                    <p class="featured-desc"><u>Ioannis Dasoulas</u> <br>
-                        Classic circuits design and simulation using VHDL language and the ModelSim environment.</p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 proDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/TheRazorace/C-Projects/tree/master/Digital%20Signal%20Processing%20Exercises"
+                            target="_blank" class="card-img-wrapper" target="_blank">
+                            <img src="images/project12.jpg" class="card-img-top" alt="Project 12">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Digital Signal Processing project
+                            </p>
+                            <h5 class="card-title fw-bold mb-3"><a
+                                    href="https://github.com/TheRazorace/C-Projects/tree/master/Digital%20Signal%20Processing%20Exercises"
+                                    target="_blank" class="text-dark text-decoration-none portfolio-title-link">C67 DSK
+                                    Board Programming</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u>, Dourdounas Aristeidis
+                                <br>
+                                C67 DSK board programming using Assembly and C language. The board was used for
+                                interrupts experimentation,
+                                A/D and D/A conversion, sampling, creation of FIR and IIR filters, creation of a DTFM
+                                decoder and creation of a spectrum analyzer.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/TheRazorace/VLSI-II-" target="_blank"><img src="images/project11.jpg" alt="Project 11"></a>
-        </div>
 
-        <div class="portfolio-container transition3 proDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Digital Signal Processing project</p>
-
-                    <a href="https://github.com/TheRazorace/C-Projects/tree/master/Digital%20Signal%20Processing%20Exercises" target="_blank"><p class="featured-title">C67 DSK Board Programming</p></a>
-                    <p class="featured-desc"><u>Ioannis Dasoulas</u>, Aristeidis Dourdounas<br>
-                        C67 DSK board programming using Assembly and C language. The board was used for interrupts experimentation,
-                         A/D and D/A conversion, sampling, creation of FIR and IIR filters, creation of a DTFM decoder and creation of a spectrum analyzer.
-                         </p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 proDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/TheRazorace/Matlab-Projects" target="_blank"
+                            class="card-img-wrapper" target="_blank">
+                            <img src="images/project13.jpg" class="card-img-top" alt="Project 13">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Pattern Recognition project</p>
+                            <h5 class="card-title fw-bold mb-3"><a href="https://github.com/TheRazorace/Matlab-Projects"
+                                    target="_blank" class="text-dark text-decoration-none portfolio-title-link">Matlab
+                                    pattern recognition</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u> <br>
+                                Pattern recognition projects using Matlab language. Projects include pattern sorting
+                                using distance functions,
+                                K-Means algorithm implementation, Perceptron algorithm implementation and data
+                                classification.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/TheRazorace/C-Projects/tree/master/Digital%20Signal%20Processing%20Exercises" target="_blank"><img src="images/project12.jpg" alt="Project 12"></a>
-        </div>
 
-        <div class="portfolio-container transition3 proDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Pattern Recognition project</p>
-
-                    <a href="https://github.com/TheRazorace/Matlab-Projects/tree/main/Pattern%20Recognition" target="_blank"><p class="featured-title">Classic Pattern Recognition Algorithms Implementation</p></a>
-                    <p class="featured-desc"> <u>Ioannis Dasoulas</u> <br>
-                        Pattern recognition projects using Matlab language. Projects include pattern sorting using distance functions,
-                         K-Means algorithm implementation, Perceptron algorithm implementation and data classification.</p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 proDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/TheRazorace/Python-Projects/tree/master/DM%20Project"
+                            target="_blank" class="card-img-wrapper" target="_blank">
+                            <img src="images/project14.jpg" class="card-img-top" alt="Project 14">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Data Mining project</p>
+                            <h5 class="card-title fw-bold mb-3"><a
+                                    href="https://github.com/TheRazorace/Python-Projects/tree/master/DM%20Project"
+                                    target="_blank" class="text-dark text-decoration-none portfolio-title-link">Mail and
+                                    Patient Classification</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u> <br>
+                                Mail classification (real or spam) and patient classification (possible stroke or not)
+                                using data mining and
+                                artificial intelligence techniques. Techniques include creating a K-Nearset-Neighbors
+                                model, creating a Random Forest Classifier
+                                model, as well as word embeddings with the implementation of a Doc2Vec model supported
+                                by a neural network. Project was implemented
+                                using Python 3.7.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/TheRazorace/Matlab-Projects/tree/main/Pattern%20Recognition" target="_blank"><img src="images/project13.jpg" alt="Project 13"></a>
-        </div>
-        
-        <div class="portfolio-container transition3 proDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Data Mining project</p>
 
-                    <a href="https://github.com/TheRazorace/Python-Projects/tree/master/DM%20Project" target="_blank"><p class="featured-title">Mail and Patient Classification </p></a>
-                    <p class="featured-desc"><u>Ioannis Dasoulas</u> <br>
-                        Mail classification (real or spam) and patient classification (possible stroke or not) using data mining and
-                         artificial intelligence techniques. Techniques include creating a K-Nearset-Neighbors model, creating a Random Forest Classifier
-                          model, as well as word embeddings with the implementation of a Doc2Vec model supported by a neural network.</p>
+                <div class="col-12 col-lg-10 mx-auto mb-5 transition3 proDiv">
+                    <div class="card h-100 border-0 shadow-sm portfolio-card">
+                        <a href="https://github.com/TheRazorace/VLSI-I-" target="_blank" class="card-img-wrapper"
+                            target="_blank">
+                            <img src="images/project15.jpg" class="card-img-top" alt="Project 15">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">VLSI project</p>
+                            <h5 class="card-title fw-bold mb-3"><a href="https://github.com/TheRazorace/VLSI-I-"
+                                    target="_blank" class="text-dark text-decoration-none portfolio-title-link">Circuit
+                                    Design and Simulation</a></h5>
+                            <p class="card-text text-muted flex-grow-1"><u>Ioannis Dasoulas</u>, Vaggelis Christoforos
+                                <br>
+                                Design and simulation of basic and complicated CMOS circuits, study of the parasitic
+                                capacities, the delay,
+                                the critical path delay and the energy consumption of CMOS circuits using the Microwind
+                                tool. Also, LtSpice was used to design
+                                some of the circuits and simulate them.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <a href="https://github.com/TheRazorace/Python-Projects/tree/master/DM%20Project" target="_blank"><img src="images/project14.jpg" alt="Project 14"></a>
+
+                <!-- 
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 mb-4 portfolio-item transition3">
+                    <div class="card h-100 border-0 shadow-sm hover-card portfolio-card">
+                        <a href="https://github.com/TheRazorace/Java-Projects/tree/master/Calculator%20GUI" target="_blank" class="card-img-wrapper overflow-hidden">
+                            <img src="images/project10.jpg" class="card-img-top" alt="Project 10">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <p class="text-success text-uppercase fw-bold small mb-2">Java project</p>
+                            <h5 class="card-title fw-bold mb-3">
+                                <a href="https://github.com/TheRazorace/Java-Projects/tree/master/Calculator%20GUI" target="_blank" class="text-dark text-decoration-none stretched-link">RPN Calculator Application</a>
+                            </h5>
+                            <p class="card-text text-muted flex-grow-1 fs-6">Reverse polish notation calculator, supporting many numerical functions, with GUI implementated in Java using Jframe.</p>
+                        </div>
+                    </div>
+                </div>            </div>
         </div>
-
-        <div class="portfolio-container transition3 proDiv">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">VLSI project</p>
-
-                    <a href="https://github.com/TheRazorace/VLSI-I-" target="_blank"><p class="featured-title">Circuit Design and Simulation </p></a>
-                    <p class="featured-desc"><u>Ioannis Dasoulas</u>, Christoforos Vaggelis <br>
-                        Design and simulation of basic and complicated CMOS circuits, study of the parasitic capacities, the delay,
-                         the critical path delay and the energy consumption of CMOS circuits using the Microwind tool. Also, LtSpice was used to design
-                          some of the circuits and simulate them.
-                    </p>
-                </div>
-            </div>
-            <a href="https://github.com/TheRazorace/VLSI-I-" target="_blank"><img src="images/project15.jpg" alt="Project 15"></a>
-        </div>
-        
-
     </section>
 
     <div class="nav-container nav-container2 transition4" id="cntct">
@@ -596,5 +853,41 @@
         }
     </script> -->
 
+                <!-- Footbar Section -->
+                <footer class="bg-dark text-white py-5" id="cntct">
+                    <div class="container text-center">
+                        <h3 class="fw-bold mb-4">Contact</h3>
+                        <p class="lead mb-4" style="color: #a0aab2;">
+                            <!-- I'm currently looking for new opportunities. Whether you have a question or just want to say hi, 
+                I'll try my best to get back to you! -->
+                        </p>
+                        <a href="mailto:john-das@hotmail.com"
+                            class="btn btn-primary btn-lg rounded-pill px-5 py-3 shadow-sm custom-btn mb-5 mt-2">
+                            E-mail <i class="bi bi-envelope ms-2"></i>
+                        </a>
+
+                        <div class="d-flex justify-content-center gap-4 mb-4">
+                            <a href="https://gr.linkedin.com/in/ioannis-dasoulas-065872225" target="_blank"
+                                class="footbar-social text-decoration-none">
+                                <i class="bi bi-linkedin fs-3"></i>
+                            </a>
+                            <a href="https://github.com/TheRazorace" target="_blank"
+                                class="footbar-social text-decoration-none">
+                                <i class="bi bi-github fs-3"></i>
+                            </a>
+                        </div>
+
+                        <p class="small mb-0" style="color: #6c757d;">&copy; 2026 Ioannis Dasoulas. All rights reserved.
+                        </p>
+                    </div>
+                </footer>
+
+                <!-- Bootstrap 5 JS Bundle -->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                    crossorigin="anonymous"></script>
+
+                <script src="js/index.js"></script>
 </body>
+
 </html>
